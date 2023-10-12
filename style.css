@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:sunshine ;
+    src: url(Sunshine.otf);
+}
+:root{
+    --cor1:#808f87;
+    --cor2:#242423;
+    --cor3:#f5cb5c;
+}
+
+body{
+   background-image: url(imagens/funo.jpg);
+   background-size: 100svb;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    min-width: 300px;
+    
+}
+
+    
+h1{
+    background-color:#808f8780;
+    width: 700px;
+    height: 870px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 5em;
+    font-family: sunshine;
+    font-weight: normal;
+    box-shadow: 0px 0px 10px rgba(57, 2, 68, 0.822);
+    
+    
+    
+    
+}.usuario
+
+{
+    background-color:var(--cor2);
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: normal;
+    padding: 3px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 3px 2px 3px black;
+    color: white;
+
+}
+.senha{
+    background-color:var(--cor2);
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: normal;
+    padding: 3px;
+    margin: 50px 10px 10px 50px;
+    border-radius: 30px;
+    box-shadow: 3px 2px 3px black;
+    color: white;
+ 
+}
+
+.logar{
+    background-color: var(--cor3);
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: normal;
+    padding: 3px;
+    margin: 50px 10px 10px 50px;
+    border-radius: 30px;
+    box-shadow: 3px 2px 3px black;
+    color: white;
+    
+    
+ 
+}
+aside >p{
+    font-size: 0.3em;
+    text-align: end;
+    margin: 2px 5px;
+}
+p{
+    font-size: 0.3em;
+    text-align: center;
+    margin: 2px 5px;
+
+}
+a{
+    font-size: 0.5em;
+    padding: 15px;
+    text-decoration: none;
+    margin: 50px;    
+}
+span{
+    font-size: 1.5em;
+    
+    
+}
+span:hover{
+    color: white;
+}
+.logar:hover{
+    background-color: cornflowerblue;
+    color:blueviolet;
+}
+
+
+a:hover{
+    background-color:var(--cor2);
+    color: white;
+    box-shadow: 3px 3px 5px red;
+
+}
+.google{
+    background-color: #f5cb5c;
+    border-radius: 50px;
+    box-shadow: 2px 0px 2px black;
+    
+}
+
+.facebook{
+    background-color: #f5cb5c;
+    border-radius: 50px;
+    box-shadow: 2px 0px 2px black;
+    
+   
+}
+.bloco1{
+    display: flex;
+    justify-content: end; 
+    align-items: end; 
+    height: 100vh;
+    margin: 15px; 
+}
+header{
+    position: relative;
+}
+header>img{
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    width: 400px;
+    height: auto;
+}
+
+header>nav{
+    background-color:black;
+    columns: 2;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+main{
+    position: relative;
+
+}
+
+.cheff{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 900px;
+    height: auto;
+
+}
+.menu{
+    font-size: 2em;
+    color: white;
+    font-family: sunshine;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+   
+   
+
+    
